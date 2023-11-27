@@ -28,3 +28,6 @@ allow hal_power_default proc:file { open };
 set_prop(hal_power_default, vendor_power_prop)
 
 allow hal_power_default device:file { write };
+
+
+allow hal_power_default proc:file { open };
